@@ -87,9 +87,11 @@ const Sidebar = () => {
   return (
     <div className="w-full h-full flex flex-col gap-6 p-5">
       <h1 className="flex gap-1 items-center">
-        <p className="bg-blue-600 p-2 rounded-full">
-          <MdOutlineAddTask className="text-white text-2xl font-black" />
-        </p>
+        <img
+          src="https://1.bp.blogspot.com/-3mgFT9b_Rxs/WuGt3zO6-HI/AAAAAAABUKc/68CJuoSd9rI-CdixCDwQqT_MPEG-1fIEACLcBGAs/s1600/google%2Btasks.PNG"
+          alt="logo"
+          className="w-10 h-10"
+        />
         <span className="text-2xl font-bold text-black dark:text-white">
           Taskify
         </span>
